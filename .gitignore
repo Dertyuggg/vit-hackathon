@@ -1,0 +1,31 @@
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+.vercel/
+
+# Supabase local
+supabase/.temp/
+supabase/.branches/
+
+# Editor / OS
+.DS_Store
+*.log
+.vscode/*
+!.vscode/extensions.json
+
+# Antigravity / agent scratch (do not commit session-local agent state)
+.antigravity/cache/
+
+# Audio test fixtures — never commit real voice recordings (see docs/DATA_AND_PRIVACY.md)
+*.wav
+*.mp3
+!apps/web/public/**/*.mp3
