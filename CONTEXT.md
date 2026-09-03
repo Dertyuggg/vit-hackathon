@@ -16,7 +16,7 @@ Swara is a voice-native micro-commerce and credit app for rural Indian merchants
 
 **What exists right now:**
 - Pitch deck (7 slides) — see `docs/PITCH_DECK_SUMMARY.md`
-- This documentation set (AGENTS.md, CONTEXT.md, SETUP.md, rules, workflows)
+- This documentation set (AGENTS.md, CONTEXT.md, SETUP.md, BUILD_GUIDE.md, rules, workflows)
 - No code written yet
 
 **What's next (in order):**
@@ -54,6 +54,9 @@ Swara is a voice-native micro-commerce and credit app for rural Indian merchants
 ## 4. Session Log
 
 Add a new entry at the top each session. Keep entries short — 3-6 lines. This is a changelog, not a diary.
+
+### Session 3 — 2026-09-03
+- Added `BUILD_GUIDE.md` to establish the two-person build plan between Oviam (Frontend/NLU) and Dhyanesh (Backend/Infra).
 
 ### Session 2 — 2026-09-02
 - Scaffolding complete: Monorepo `pnpm` workspaces properly configured with `@swara/shared` package.
